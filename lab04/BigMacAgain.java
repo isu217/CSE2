@@ -16,7 +16,7 @@ public class BigMacAgain {
         int nBigMacs = myScanner.nextInt(); //get input for number of big macs
         if(nBigMacs>=0) {                               //create parameters for number of big macs
             double bigMacCost = nBigMacs*BigMac$;       //get cost of bigmacs
-            System.out.print("You ordered " +nBigMacs+ " for a cost of $"+bigMacCost+".");
+            System.out.printf("You ordered " +nBigMacs+ " for a cost of $"+bigMacCost+".");
         }
         else if(nBigMacs<0) {                           //create error statement for negative bigmacs
             System.out.println("You did not enter an int greater than 0");
